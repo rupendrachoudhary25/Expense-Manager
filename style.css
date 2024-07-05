@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#expens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#totalinput {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#totalinput input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#totalinput button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#totalinput button:hover {
+    background-color: #c9302c;
+}
+
+#buttons {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.info:last-child {
+    border-bottom: none;
+}
+
+#addExpense {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#addExpense input[type="text"] {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#addExpense button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addExpense button:hover {
+    background-color: #c9302c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
